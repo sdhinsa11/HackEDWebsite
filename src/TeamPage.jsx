@@ -1,4 +1,6 @@
 import './TeamPage.css';
+import './index.css'
+import Header from './Header.jsx'
 
 const teamMembers = [
   { name: "Sohanna", role: "-", image: "/images/member1.jpg" },
@@ -8,16 +10,10 @@ const teamMembers = [
   { name: "Diya", role: "-", image: "/images/member5.jpg" }
 ];
 
-export default function TeamPage() {
+export default function TeamPage( { setCurrentPage} ) {
   return (
     <div>
-      <h1 className='header'>
-        <div>Logo Placement</div>
-        <div className='links'>
-          <div className='l1'>About</div>
-          <div className='l2'>Team</div>
-        </div>
-      </h1>
+      
 
       <h1 className="subHeaders">Our Team</h1>
 
