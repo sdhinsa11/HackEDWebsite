@@ -3,7 +3,6 @@ body{
   padding: 0;
 }
 
-
 .theProject{
   display: flex;
   width: 80%;
@@ -37,6 +36,3 @@ body{
   
 }
 
-.whatitis{
-  color: #D6A68D
-}
