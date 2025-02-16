@@ -3,7 +3,18 @@ body{
 }
 
 .header{
+      display: flex;
+      justify-content: space-between;
       background-color: #C1A66B;
-      padding: 1rem;
-      margin:0;
+      padding: 2%;
+      margin: 0;
+}
+
+.links{
+  display: flex;
+}
+
+
+.l1, .l2{
+  margin-right: 0.5em;
 }
