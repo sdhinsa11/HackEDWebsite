@@ -2,3 +2,41 @@ body{
   margin: 0;
   padding: 0;
 }
+
+
+.theProject{
+  display: flex;
+  width: 80%;
+  margin: 6rem auto;
+  justify-content: space-between; /* Ensures even spacing */
+  align-items: flex-start;
+}
+
+
+.picDiv {
+  margin-top: 4.5em;
+  width: 40%; /* Adjust as needed */
+  height: 400px; /* Set a height for visibility */
+  background: lightgray; /* Just for visibility */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectPic {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.description {
+  width: 50%; /* Adjust as needed */
+  text-align: justify;
+  padding-top: 0;  /* Ensures no top padding pushes it down */
+  margin-top: 0;
+  
+}
+
+.whatitis{
+  color: #D6A68D
+}
