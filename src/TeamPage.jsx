@@ -1,4 +1,5 @@
 import './TeamPage.css';
+import { Rive } from '@rive-app/react-canvas';
 
 const teamMembers = [
   { name: "Sohanna", role: "-", image: "/images/member1.jpg" },
@@ -7,6 +8,8 @@ const teamMembers = [
   { name: "Sumayya", role: "-", image: "/images/member4.jpg" },
   { name: "Diya", role: "-", image: "/images/member5.jpg" }
 ];
+
+
 
 export default function TeamPage() {
   return (

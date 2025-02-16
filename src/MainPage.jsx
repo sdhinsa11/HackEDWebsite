@@ -1,6 +1,8 @@
 import './Page.css'
 import './index.css'
 
+
+
 function MainPage() {
 
   return (
@@ -36,6 +38,7 @@ function MainPage() {
       </div>
     </>
   )
+
 }
 
 export default MainPage
