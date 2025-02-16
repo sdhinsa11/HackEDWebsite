@@ -1,4 +1,13 @@
-.page2Main{
+.pageMain{
     width: 80%;
     margin: 6rem auto;
+}
+.sidebyside{
+    width: 40%;
+
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
 }
