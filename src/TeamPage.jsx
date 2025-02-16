@@ -10,7 +10,7 @@ const teamMembers = [
   { name: "Diya", role: "-", image: "/images/member5.jpg" }
 ];
 
-export default function TeamPage() {
+export default function TeamPage( { setCurrentPage} ) {
   return (
     <div>
       

@@ -8,8 +8,6 @@ import Page4 from './Page4.jsx'
 import Header from './Header.jsx'
 
 
-
-
 function MainPage() {
   const [currentPage, setCurrentPage] = useState('main')
 
