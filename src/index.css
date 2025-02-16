@@ -19,3 +19,7 @@ body{
 .l1, .l2{
   margin-right: 0.5em;
 }
+ 
+.subHeaders {
+  color: #D6A68D;
+}
