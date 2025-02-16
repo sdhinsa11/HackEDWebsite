@@ -8,12 +8,13 @@ body{
       background-color: #C1A66B;
       padding: 2%;
       margin: 0;
+      color: white;
 }
 
 .links{
   display: flex;
+  color: white;
 }
-
 
 .l1, .l2{
   margin-right: 0.5em;
