@@ -1,17 +1,19 @@
 import './TeamPage.css';
 import './index.css'
+import Header from './Header.jsx'
 import Dhruvil from'./assets/Dhruvil.webp'
 import Divya from './assets/Prasad_Divya_1_1.webp'
-import Sohanna from './assets/Sohanna.webp'
+import Sohana from './assets/Sohanna.webp'
 import Diya from './assets/Diya.png'
 import Sumayya from './assets/Sumayya.jpeg'
 
+
 const teamMembers = [
-  { name: "Sohanna", role: "-", image: Sohanna },
-  { name: "Divya", role: "-", image: Divya },
-  { name: "Dhruvil", role: "-", image: Dhruvil },
-  { name: "Sumayya", role: "-", image: Sumayya },
-  { name: "Diya", role: "-", image: Diya}
+  { name: "Sohana", role: "Hardware Engineer/Website Developer", image: Sohana },
+  { name: "Divya", role: "Hardware Engineer/Website Developer", image: Divya },
+  { name: "Dhruvil", role: "Machine Learning Engineer", image: Dhruvil },
+  { name: "Sumayya", role: "Machine Learning Engineer", image: Sumayya },
+  { name: "Diya", role: "Hardware Engineer/Website Developer", image: Diya}
 ];
 
 export default function TeamPage( { setCurrentPage} ) {
