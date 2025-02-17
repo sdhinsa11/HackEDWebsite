@@ -62,7 +62,13 @@ function MainPage() {
                   Challenges We Faced
                 </h1>
                 <p>
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Sit eros purus ornare consectetur nec quam faucibus duis. Imperdiet pharetra blandit est feugiat turpis class at condimentum congue. 
+                  <ul>
+                    <li>Adapting to multiple pivots due to unexpected bugs in object detection.</li>
+                    <li>Debugging the computer’s speaker issue by adding a few lines of code.</li>
+                    <li>Learning Arduino from scratch during the hackathon, as none of us had prior experience.</li>
+                    <li>Resolving speaker output issues by removing a resistor that was preventing sound.</li>
+                    <li>Applying Ohm’s Law (V = IR) to troubleshoot and refine our circuit design.</li>
+                  </ul>
                 </p>
             </div>
         
@@ -71,7 +77,12 @@ function MainPage() {
                   Future Implications
               </h1>
               <p>
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Sit eros purus ornare consectetur nec quam faucibus duis. Imperdiet pharetra blandit est feugiat turpis class at condimentum congue. 
+              <ul>
+                <li>Enhance model training to improve person recognition accuracy.</li>
+                <li>Integrate the OpenAI API for directional guidance towards detected objects.</li>
+                <li>Upgrade to a more advanced sensor, such as the Arducam, for superior object detection 
+                    (given the resource constraints of this hackathon, we worked with what was available).</li>
+              </ul>
               </p>
             </div>
           </div>
