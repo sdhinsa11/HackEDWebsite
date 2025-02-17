@@ -15,7 +15,7 @@ export const DancingRaj = () => {
     });
 
     // return <RiveComponent />;
-    return <RiveComponent style={{ width: "100%", height: "500px" }} />;
+    return <RiveComponent style={{ width: "90%", height: "300px" }} />;
 
 };
 

@@ -36,3 +36,31 @@ body{
   
 }
 
+.pageMain{
+  width: 80%;
+  margin: 6rem auto;
+}
+.sidebyside{
+  width: 40%;
+
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dancing{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.prt1, .prt2{
+  width: 50%;
+}
+
+
+.prt2{
+  margin-top: -20px;
+}
