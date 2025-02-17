@@ -16,7 +16,7 @@ body{
   margin-top: 4.5em;
   width: 40%; /* Adjust as needed */
   height: 400px; /* Set a height for visibility */
-  background: lightgray; /* Just for visibility */
+  background: white; /* Just for visibility */
   display: flex;
   align-items: center;
   justify-content: center;

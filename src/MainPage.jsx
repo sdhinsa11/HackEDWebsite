@@ -1,6 +1,7 @@
 import './Page.css'
 import './index.css'
 import TeamPage from './TeamPage.jsx'
+import deviceImage from'./assets/DeviceImage.jpg'
 import { useState } from 'react'
 import Header from './Header.jsx'
 import { DancingRaj } from './DancingRaj.jsx'
@@ -20,7 +21,7 @@ function MainPage() {
           
           <div className='theProject'>
             <div className='picDiv'> 
-              <img className='projectPic'alt="Placeholder for img"/>
+              <img className='projectPic' src={deviceImage} alt="Placeholder for img"/>
 
             </div>
             <div className='description'> 

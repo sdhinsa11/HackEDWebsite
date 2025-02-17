@@ -17,6 +17,7 @@ body{
     justify-content: center;
     width: 600px;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .team-member {
@@ -29,16 +30,20 @@ body{
 
 .img{
     /* margin: 6rem;  */
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-radius: 50%;
-    border: 1px solid black;
-}
-.person{
-    margin: 2rem; 
 }
 
-.roles{
+img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover; 
+}
+.person{
+    margin: 1rem; 
+    /* border: 1px solid black; */
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 120px;
+    
 }
