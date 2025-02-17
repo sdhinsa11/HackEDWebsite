@@ -31,14 +31,22 @@ body{
     /* margin: 6rem;  */
     padding: 2rem 0;
     border-radius: 50%;
-    border: 1px solid black;
-}
-.person{
-    margin: 2rem; 
 }
 
-.roles{
-    display: flex;
+img{
+    width: 150px;
+    height: 200px;
+}
+.person{
+    margin: 1rem; 
+
+}
+
+
+
+.name, .role{
+    margin-right: 2rem;
+    /* display: flex;
     align-items: center;
-    width: 120px;
+    width: 120px; */
 }
