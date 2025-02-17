@@ -8,7 +8,7 @@ import Diya from './assets/Diya.png'
 
 
 const teamMembers = [
-  { name: "Sohanna", role: "-", image: Sohanna },
+  { name: "Sohana", role: "-", image: Sohanna },
   { name: "Divya", role: "-", image: Divya },
   { name: "Dhruvil", role: "-", image: Dhruvil },
   { name: "Sumayya", role: "-", image: "/images/member4.jpg" },
