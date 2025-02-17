@@ -26,7 +26,7 @@ export default function Header({ currentPage, setCurrentPage }) {
 
     return (
       <h1 className='header'>
-        <div style={{ cursor: 'pointer' }} onClick={() => setCurrentPage('main')}>Logo Placement</div>
+        <div style={{ cursor: 'pointer' }} onClick={() => setCurrentPage('main')}>SightSense</div>
         <div className='links'>
           <div className='l1' onClick={scrollToAbout} style={{ cursor: 'pointer' }}>About</div>
           <div 
