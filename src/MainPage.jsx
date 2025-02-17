@@ -2,10 +2,8 @@ import './Page.css'
 import './index.css'
 import TeamPage from './TeamPage.jsx'
 import { useState } from 'react'
-import Page2 from './Page2.jsx'
-import Page3 from './Page3.jsx'
-import Page4 from './Page4.jsx'
 import Header from './Header.jsx'
+import { DancingRaj } from './DancingRaj.jsx'
 
 
 
@@ -30,15 +28,52 @@ function MainPage() {
                 What is it?
               </h1>
               <p>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Sit eros purus ornare consectetur nec quam faucibus duis. Imperdiet pharetra blandit est feugiat turpis class at condimentum congue. Id etiam cubilia penatibus inceptos; massa risus adipiscing tortor habitant. Interdum taciti ad habitant auctor pretium justo. Leo eleifend convallis litora magnis magna cubilia. Semper dui purus libero vitae consequat iaculis hac facilisi. Sit senectus fusce quis elementum curabitur per ante luctus augue. Potenti ultrices urna malesuada lectus suscipit. Dignissim nam ultricies ex; hendrerit diam fermentum. Eu dolor velit vitae convallis quam convallis imperdiet eros. Pellentesque fermentum primis potenti in natoque diam dis cubilia. Ipsum nostra morbi pretium semper ut velit lacus. Hendrerit montes etiam lacus natoque orci volutpat sodales purus. Ullamcorper morbi interdum placerat sodales bibendum eleifend nullam. Gravida consequat scelerisque magna ridiculus dictum accumsan. Nulla cursus hac eros leo montes; velit est felis. Aenean eleifend venenatis volutpat suspendisse aliquam curabitur placerat ex. Natoque himenaeos sollicitudin gravida risus ligula sit. Feugiat metus aptent penatibus auctor scelerisque maximus, parturient neque fermentum. Fusce neque netus euismod eros metus vivamus gravida. Porttitor justo penatibus pretium turpis eu suscipit lacus. Posuere leo praesent eleifend suscipit ipsum adipiscing torquent ornare nullam. Sem blandit faucibus vel lorem vehicula tempus. Mollis nostra elit at turpis dis justo tempus est. Nec est vestibulum enim elit fringilla, hac vel. Molestie conubia ridiculus neque leo lobortis magnis.
+                Imagine a world where people with visual impairments can confidently navigate their surroundings, effortlessly finding the objects they need. Our innovative device brings that vision to life! Equipped with a powerful AI-driven object recognition system and an intuitive voice command feature, it allows users to simply say the name of the item they are looking for. The built-in webcam scans the environment, and if the object is detected, the device instantly announces its location, guiding the user toward it. To ensure safety, an ultrasonic sensor continuously monitors the surroundings, beeping if the user gets too close to an obstacle. It's more than just a tool—it’s independence, freedom, and confidence in a single device!
               </p>
+              <div className = 'prt2'>
+                <DancingRaj />
+              </div>
             
             </div>
           </div>
 
-          <Page2 />
-          <Page3/>
-          <Page4/>
+          <div className='pageMain'>
+                <h1 className='questionHeader'>
+                  Why We Made it?
+                </h1>
+                <p>
+                  We believe technology should empower people, not limit them. Many visually impaired individuals face daily challenges navigating unfamiliar spaces or locating essential items. Traditional mobility aids provide some assistance, but we saw an opportunity to take it further—blending artificial intelligence with real-world functionality. Our mission is to create a device that’s not just helpful, but truly life-changing. By combining smart object recognition, voice interaction, and obstacle detection, we are breaking barriers and opening doors to a more accessible world for all.
+                </p>
+          </div>
+
+          <div className='pageMain'>
+            <h1 className='questionHeader'>
+              What Inspired us?
+            </h1>
+            <p>
+              Our inspiration came from the millions of visually impaired individuals who navigate the world with resilience and determination. We saw the challenges they face daily—locating objects, avoiding obstacles, and moving independently in unfamiliar environments. We asked ourselves: How can technology bridge this gap and give them more freedom? Seeing how AI and smart sensors are transforming industries, we knew we could create something practical, empowering, and life-changing. Our goal was to move beyond traditional mobility aids and develop a device that doesn’t just assist but enhances independence and confidence.
+            </p>
+          </div>
+
+          <div className='pageMain last'>
+            <div className='sidebyside'>
+                <h1 className='questionHeader'>
+                  Challenges We Faced
+                </h1>
+                <p>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Sit eros purus ornare consectetur nec quam faucibus duis. Imperdiet pharetra blandit est feugiat turpis class at condimentum congue. 
+                </p>
+            </div>
+        
+            <div className='sidebyside'>
+              <h1 className='questionHeader'>
+                  Future Implications
+              </h1>
+              <p>
+                  Lorem ipsum odor amet, consectetuer adipiscing elit. Sit eros purus ornare consectetur nec quam faucibus duis. Imperdiet pharetra blandit est feugiat turpis class at condimentum congue. 
+              </p>
+            </div>
+          </div>
         </>
       )}
 
